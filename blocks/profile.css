@@ -6,6 +6,7 @@
 }
 
 .profile__info {
+  max-width: 282px;
   display: grid;
   grid-template-areas:
     "title button"
@@ -66,7 +67,7 @@
   font-weight: 400;
   grid-area: description;
   margin: 0;
-  max-width: 415px;
+  max-width: 282px;
   padding-bottom: 36px;
   padding-top: 14px;
   text-overflow: ellipsis;
