@@ -6,7 +6,6 @@
 }
 
 .profile__info {
-  max-width: 282px;
   display: grid;
   grid-template-areas:
     "title button"
@@ -67,7 +66,7 @@
   font-weight: 400;
   grid-area: description;
   margin: 0;
-  max-width: 282px;
+  max-width: 373px;
   padding-bottom: 36px;
   padding-top: 14px;
   text-overflow: ellipsis;
@@ -86,12 +85,10 @@
 }
 
 @media screen and (max-width: 766px) {
-
-  .profile__add-button{
+  .profile__add-button {
     width: 50px;
     margin-left: 25px;
   }
-
 }
 
 @media screen and (max-width: 633px) {
@@ -108,9 +105,11 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    max-width: 282px;
   }
 
   .profile__title {
+    max-width: 222px;
     padding-top: 30px;
     font-size: 22px;
     line-height: 1.21;
@@ -122,6 +121,7 @@
   }
 
   .profile__description {
+    max-width: 282px;
     font-size: 14px;
     line-height: 1.21;
     text-align: center;
@@ -131,7 +131,8 @@
   }
 
   .profile__edit-button {
-    background: transparent url(../images/edit-button-mobile.svg) no-repeat center;
+    background: transparent url(../images/edit-button-mobile.svg) no-repeat
+      center;
     padding-left: 10px;
     margin-top: 30px;
     height: 18px;
