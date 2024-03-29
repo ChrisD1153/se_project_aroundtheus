@@ -9,6 +9,8 @@
   display: flex;
   padding: 0 19px;
   display: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .model__heading {
@@ -30,9 +32,8 @@
 .model__container {
   position: relative;
   box-sizing: border-box;
-  padding: 36px;
+  padding: 34px 36px 36px;
   background-color: #fff;
-  margin: auto;
   border-radius: 10px;
   max-width: 430px;
 }
@@ -97,23 +98,29 @@
 }
 
 @media screen and (max-width: 630px) {
-    .model__container {
-        width: 282px;
-        height: 322px;
-    }
+  .model__container {
+    padding: 25px 22px;
+    width: 282px;
+    height: 322px;
+  }
 
-    .model__form {
-        display: flex;
-        justify-content: center;
-        max-width: 238px;
-        margin: auto;
-    }
+  .model__button {
+    width: 238px;
+    height: 46px;
+    bottom: 25px;
+  }
 
-    .model__close {
-        height: 26px;
-        width: 26px;
-        bottom: calc(100% + 26px);
-        left: calc(100% - 26px);
-    }
+  .model__form {
+    display: flex;
+    justify-content: center;
+    max-width: 238px;
+    margin: auto;
+  }
 
+  .model__close {
+    height: 26px;
+    width: 26px;
+    bottom: calc(100% + 26px);
+    left: calc(100% - 26px);
+  }
 }
