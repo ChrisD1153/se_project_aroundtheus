@@ -39,6 +39,7 @@
 }
 
 .model__close {
+  color: #fff;
   position: absolute;
   cursor: pointer;
   bottom: calc(100% + 5px);
@@ -104,6 +105,9 @@
 
   .model__heading{
     font-size: 18px;
+    width: 238px;
+    line-height: 22px;
+    margin: 0 0 76px;
   }
 
   .model__container {
@@ -128,7 +132,7 @@
   .model__close {
     height: 26px;
     width: 26px;
-    bottom: calc(100% + 26px);
-    left: calc(100% - 36px);
+    bottom: calc(100% + 25px);
+    left: calc(100% - 30px);
   }
 }
